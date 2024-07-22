@@ -14,7 +14,7 @@ This class implements the Singleton Design Pattern for a system clock. It ensure
 * currentTimeMillis(): Returns the current system time in milliseconds.
  <br><br>
 
-## SingltonDesginPattern.java  📁
+### SingltonDesginPattern.java  📁
 
 This is the main class that demonstrates the usage of the SystemClock singleton. It verifies that only one instance of SystemClock is created and used throughout the application.
 
