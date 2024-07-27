@@ -15,6 +15,7 @@ public class User implements Observer {
     @Override
     public void subscribe(Subject sub) {
         this.blog = sub;
+        sub.register(this);
     }
 
     @Override
