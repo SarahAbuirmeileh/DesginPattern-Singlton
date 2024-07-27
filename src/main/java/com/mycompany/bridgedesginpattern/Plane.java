@@ -16,6 +16,6 @@ public class Plane extends Aircraft {
     
     @Override
     public void fly() {
-        System.out.println("Flying as speed " + this.type.maxSpeed() );
+        System.out.println("Flying at speed " + this.type.maxSpeed() );
     }
 }
