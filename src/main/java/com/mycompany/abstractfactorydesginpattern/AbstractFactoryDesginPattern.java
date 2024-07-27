@@ -28,8 +28,6 @@ public class AbstractFactoryDesginPattern {
         if(watch2 instanceof WallWatch){
             System.out.println("Wall Watch Created Successfully !");
         }
-        
-        System.out.println(watch1.diameter);
-        
+                
     }
 }
