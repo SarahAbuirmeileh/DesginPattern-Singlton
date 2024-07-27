@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package factorydesginpattern;
+
+/**
+ *
+ * @author sarah
+ */
+public abstract class WatchFactory {
+    public static Watch createWatch(String type, int diameter){
+        if(type.equals("HandWatch")){
+            return new HandWatch(diameter);
+        }else{
+            return new WallWatch(diameter);
+        }
+    }
+}
